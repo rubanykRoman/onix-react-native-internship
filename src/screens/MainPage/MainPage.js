@@ -3,7 +3,7 @@ import {
   SafeAreaView, ScrollView, TextInput, View
 } from 'react-native';
 import styles from './mainPageStyles';
-import TextRow from '../components/TextRow/TextRow';
+import TextRow from '../../components/TextRow/TextRow';
 
 const MainPage = function () {
   const [text, onChangeText] = React.useState('');
