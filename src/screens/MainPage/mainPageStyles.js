@@ -9,9 +9,14 @@ const styles = StyleSheet.create({
   textInput: {
     borderColor: 'blue',
     borderBottomWidth: 1,
-    marginTop: 40,
+    marginTop: 50,
     paddingHorizontal: 20,
-  }
+  },
+  buttonContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginTop: 30,
+  },
 });
 
 export default styles;
